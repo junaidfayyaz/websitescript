@@ -1,0 +1,84 @@
+#contactus{
+    padding-top: 5rem;
+}
+#f1{
+    padding-top: 3rem;
+    
+}
+#f2{
+    margin-top: -35.5rem;
+}
+#f3{
+    margin-top: -35rem;
+}
+#f4{
+    margin-top: 2rem;
+}
+.us_container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    
+}
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    
+}
+.us{
+    padding-top: 2rem;
+    background-color: rgb(14 56 118);
+    border-radius: 2rem;
+    padding: 2rem;
+    color: white;
+    border: 1px solid rgb(11, 11, 48);
+    text-align: center;
+
+}
+.form-control{
+    background-color: transparent;
+    border: 1px solid rgb(40, 110, 215);
+
+}
+a{
+    text-decoration: none;
+}
+.us:hover{
+    background-color: transparent;
+}
+form{
+    display: flex;
+    flex-direction:column ;
+    gap: 1.2rem;
+    padding-top: 2rem;
+}
+input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 2px solid rgb(40, 110, 215) ;
+}
+/* Medium devices */
+@media screen and (max-width: 1024px) {
+    .us_container{
+
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+}
+/* Small devices */
+@media screen and (max-width: 600px) {
+    .us_container{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    }
+}
+@media screen and (max-width: 455px) {
+  #contactus{
+    margin-left:7rem;
+  }
+}

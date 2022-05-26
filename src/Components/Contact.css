@@ -1,0 +1,85 @@
+#contact{
+    padding-top: 5rem;
+    color: white;
+}
+.contact_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    padding-top: 4rem;
+    /* border-radius: 2rem; */
+}
+.butn11{
+    color: rgb(40, 110, 215);
+    font-size: large;
+    font-weight: 600;
+    background-color: rgb(11, 11, 48);
+    border: 1px solid rgb(40, 110, 215);
+    border-radius: 9px;
+    padding: 9px;
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+.butn22{
+     color:rgb(11, 11, 48);
+    font-size: large;
+    font-weight: 600;
+    background-color:rgb(40, 110, 215) ;
+    border: 1px solid rgb(11, 11, 48);
+    border-radius: 9px;
+    padding: 9px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.butn11:hover{
+   color:black;
+}
+.butn22:hover{
+   color:rgb(11, 11, 48);
+}
+.img-fluid{
+    border-radius: 2rem;
+}
+.cont{
+    background-color: rgb(14 56 118);
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+.port{
+    padding: 2rem 0px;
+}
+.cont:hover{
+    background-color: transparent;
+    border: 1px solid rgb(40, 110, 215);
+    cursor: default;
+}
+/* Medium devices */
+@media screen and (max-width: 1024px) {
+    .contact_container{
+
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.service{
+    height: fit-content;
+}
+}
+/* Small devices */
+@media screen and (max-width: 600px) {
+    .contact_container{
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    }
+}
+@media screen and (max-width: 539px) {
+    #contact{
+        margin-left: 4rem;
+    }
+}
+@media screen and (max-width: 455px) {
+  #contact{
+    margin-left:8rem;
+  }
+}

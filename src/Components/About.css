@@ -1,0 +1,136 @@
+ #about{
+    text-align: center;
+    padding-top: 4.5rem;
+}
+#go{
+    color: grey;
+}
+#abou{
+    color:rgb(40, 110, 215) ;
+}
+/*
+#about-img{
+    padding-top: 5rem;
+    padding-left: 4rem;
+}
+#sb{
+    justify-content: center;
+    display: flex;
+    padding-top: 5rem;
+    gap: 101px;
+    padding-left: 5rem;
+}
+#a2{
+    padding-top: 3rem;
+    text-align: revert;
+    padding-left: 5rem;
+} */
+.ios{
+    background-color: rgb(14 56 118);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+/* #a3{
+padding: 10px 40px;
+}
+#a4{
+    padding: 0px 30px;
+} */
+
+
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+.about__me{
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  display: grid;
+  place-items: center;
+}
+.about__me-image{
+  border-radius: 2rem;
+  overflow: hidden;
+  transform-origin: rotate(10deg);
+}
+.about__me-image:hover{
+    transform: rotate(0);
+}
+.about__card{
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+    text-align: center;
+    margin-left: 6rem;
+}
+
+.about__cards{
+    background-color: blue;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.about__card:hover{
+    background-color: transparent;
+    border-color: black;
+    cursor: default;
+
+}
+.about__icons{
+    color: red;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.about__cards h5{
+    font-size: 0.95rem;
+}
+.about__cards small{
+    font-size: 0.7rem;
+    color: brown;
+
+}
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color: white;
+}
+
+/* Medium devices */
+@media screen and (max-width: 1024px) {
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about__me{
+            width: 50%;
+            margin: 2rem auto auto;
+        
+    }
+    .about__content p{
+        margin:  1rem 0 1.5rem;
+    }
+}
+/* Small devices */
+@media screen and (max-width: 600px) {
+    .about__me{
+        width: 65%;
+        margin: 0 auto;
+
+    }
+    .about__card{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-right: 6rem;
+
+    }
+    .about__content{
+        text-align: center;
+    }
+    .about__content p{
+        margin: 1.5rem 0;
+    }
+}

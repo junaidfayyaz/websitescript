@@ -1,0 +1,11 @@
+.bs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:12px ;
+    margin-left: 29vh;
+    
+}
+.bs_w{
+padding-top: 40vh;
+}

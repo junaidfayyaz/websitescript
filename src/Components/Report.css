@@ -1,0 +1,99 @@
+#report{
+    padding-top: 5rem;
+    color: white;
+}
+.skill{
+    text-align: center;
+}
+#sk{
+    color: grey
+}
+#ex{
+    color: rgb(7, 99, 237);
+    padding-bottom: 5rem;
+}
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.frontend{
+    background-color: rgb(14 56 118);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+.backend{
+    background-color: rgb(14 56 118);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+.frontend:hover{
+    background-color: transparent;
+    cursor: default;
+}
+.backend:hover{
+    background-color: transparent;
+    cursor: default;
+}
+.h3{
+    color:rgb(7, 99, 237) ;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.handle_exp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+.exp-detail{
+    display: flex;
+    gap: 1rem;
+}
+.exp_icon{
+    margin-top: 6px;
+    color:rgb(7, 99, 237) ;
+}
+ /* Small devices */
+@media screen and (max-width:600px){
+.experience{
+    grid-template-columns:1fr;
+}
+.frontend{
+    width: 80%;
+    padding: 1rem;
+    margin: 0px auto;
+}
+.backend{
+    width: 80%;
+    padding: 1rem;
+    margin: 0px auto;
+}
+}
+ /* Medium devices */
+@media screen and (max-width:1024px){
+.experience{
+    grid-template-columns:1fr;
+}
+.frontend{
+    width: 80%;
+    padding: 1rem;
+    margin: 0px auto;
+}
+.backend{
+    width: 80%;
+    padding: 1rem;
+    margin: 0px auto;
+}
+}
+@media screen and (max-width: 539px) {
+    #report{
+        margin-left: 3rem;
+    }
+}
+@media screen and (max-width: 455px) {
+  #report{
+    margin-left:4rem;
+  }
+}
